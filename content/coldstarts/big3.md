@@ -38,7 +38,7 @@ The following chart shows the comparison of typical cold start durations across 
 {{< featured >}}
 
 {{< chart_interval 
-    "coldstart__bylanguage"
+    "coldstart_all_bylanguage"
     "Typical cold start durations per language" >}}
 
 {{< /featured >}}    
@@ -57,7 +57,7 @@ The following chart compares three JavaScript functions with various number of r
 {{< featured >}}
 
 {{< chart_interval 
-    "coldstart__bydependencies"
+    "coldstart_all_bydependencies"
     "Comparison of cold start durations per deployment size (zipped)" >}}
 
 {{< /featured >}}    
