@@ -5,6 +5,7 @@ thumbnail: /images/big3c.jpg
 image: /images/big3c.jpg
 teaser: "AWS Lambda, Azure Functions, and Google Cloud Functions compared in terms of cold starts across all supported languages"
 tags: ["Cold Starts", "AWS Lambda", "Azure Functions", "Google Cloud Functions", "AWS", "Azure", "GCP"]
+ghissueid: 1
 ---
 
 This article compares Function-as-a-Service offerings of Big-3 cloud providers in terms of cold starts. AWS Lambda, Azure Functions (Consumption Plan), and Google Cloud Functions are all dynamically scaled and billed-per-execution compute services. Instances of cloud functions are added and removed dynamically. When a new instance handles its first request, the response time increases, which is called a **cold start**.

@@ -21,7 +21,7 @@ enableEmoji = true
 
 [params.social]
   github = "serverlessland"
-  twitter = "serverlessland"
+  twitter = "MikhailShilkov"
 
 ## Main Menu
 [[menu.main]]
