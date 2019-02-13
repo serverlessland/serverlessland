@@ -1,6 +1,7 @@
 ---
 title: "Cold Starts in Google Cloud Functions"
 date: 2019-02-05
+layout: single
 tags: ["Cold Starts", "GCP", "Google Cloud Functions"]
 teaser: Running GA and Beta languages on different instance sizes
 thumbnail: /images/gcp.jpg

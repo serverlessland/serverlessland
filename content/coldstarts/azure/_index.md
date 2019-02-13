@@ -1,6 +1,7 @@
 ---
 title: "Cold Starts in Azure Functions"
 date: 2019-02-07
+layout: single
 thumbnail: /images/azure2.jpg
 teaser: Influence of dependecies, language, runtime selection on Consumption Plan
 tags: ["Cold Starts", "Azure", "Azure Functions"]

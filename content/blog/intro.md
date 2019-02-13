@@ -50,6 +50,8 @@ I believe I can solve the issues inherent to the format of blog by doing the fol
 
 I've completed all the suggestions for the topic of [Cold Starts](/coldstarts/). 
 
+{{< figure src="/images/coldstarts-screen.png" title="Cold Starts landing page screenshot" >}}
+
 Two dozens of cloud functions are provisioned across three providers. The experiments run for a week and then the results are saved as JSON files. A script aggregates the data and produces charts in several seconds.
 
 I commit to running this experiment and updating the data at least once in 2 months for as long as it would make sense, to my judgement.
