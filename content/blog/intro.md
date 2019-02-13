@@ -58,6 +58,6 @@ The corresponding section of the website consists of 16 pages with different foc
 
 All the code and data are [published](/about/open/).
 
-I invite you to give it a try, [follow on Twitter](https://www.twitter.com/serverlessland) and [leave the feedback on GitHub](TODO).
+I invite you to give it a try, [follow on Twitter](https://www.twitter.com/serverlessland) and [leave the feedback on GitHub](https://github.com/serverlessland/serverlessland/issues/1).
 
 [Cold Starts on Serverless Land](/coldstarts/).
