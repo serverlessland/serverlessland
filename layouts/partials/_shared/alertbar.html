@@ -6,7 +6,7 @@
             {{ if isset .Site.Params "logo" }}
                 <img src="{{ .Site.Params.logo | urlize | relURL }}" alt="logo">
             {{ else }}
-                <span style="font-family:Righteous;">{{.Site.Title}}</span>
+                <span>{{.Site.Title}}</span>
             {{ end }}
             &nbsp; Never miss a <b>story</b>, subscribe to our newsletter
         </span>

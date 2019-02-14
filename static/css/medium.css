@@ -210,9 +210,6 @@ span.post-name a,span.post-read-more a:hover {
     max-height:30px;
     margin-right:5px;
 }
-.mainheading h1.sitetitle {
-    font-family:Righteous;
-}
 .mainheading h1.posttitle {
     font-weight:700;
     margin-bottom:1rem;
