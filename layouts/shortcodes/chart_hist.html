@@ -1,5 +1,5 @@
 {{ $id := .Get 0 }}
-{{ $data := index .Site.Data (.Get 0) }}
+{{ $data := index .Site.Data.raw (.Get 0) }}
 {{ $caption := .Get 1 }}
 {{ $maxValue := .Get 2 | default "" }}
 

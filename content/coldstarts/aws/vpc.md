@@ -4,7 +4,9 @@ date: 2019-02-08
 tags: ["Cold Starts", "AWS", "JavaScript", "VPC", "AWS Lambda"]
 ---
 
-AWS Lambda might need to access resources inside Amazon Virtual Private Cloud (Amazon VPC). Configuring VPC access will significantly slow down the cold starts. The following charts shows the cold start duration distribution of an "Hello World" JavaScript Lambda with VPC connectivity enabled:
+AWS Lambda might need to access resources inside Amazon Virtual Private Cloud (Amazon VPC). Configuring VPC access will slow down the cold starts.
+
+The following charts shows the cold start duration distribution of an "Hello World" JavaScript Lambda with VPC connectivity enabled:
 
 {{< chart_hist 
      "coldstart_aws_vpc" 

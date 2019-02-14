@@ -5,7 +5,7 @@ draft: false
 tags: ["Cold Starts", "Azure", "C#", "JavaScript", "Python", "Java", "Azure Functions"]
 ---
 
-The charts below give the distribution of cold start durations per runtime version and supported programming language. All charts have the same scale to make them easily comparable.
+The charts below give the distribution of cold start durations per runtime version and supported programming language. All charts have the same horizontal scale (0-18 sec) to make them easily comparable.
 
 ## Azure Functions V2
 

@@ -10,14 +10,14 @@ ghissueid: 4
 
 This article describes Google Cloud Functions&mdash;the dynamically scaled and billed-per-execution compute service. Instances of Cloud Functions are added and removed dynamically. When a new instance handles its first request, the response time suffers, which is called a **cold start**.
 
-Learn more: [Cold Starts in Serverless Functions](/coldstarts/define)
+Learn more: [Cold Starts in Serverless Functions](/coldstarts/define).
 
 When Does Cold Start Happen?
 ----------------------------
 
-The very first cold start happens when the first request comes in after a deployment. 
+The very first cold start happens when the first request comes in after deployment. 
 
-After that request is processed, the instance is kept alive to be reused for subsequent requests. There is no predefined threshold for instance recycling: the empiric data show great variance of idle-but-alive periods.
+After that request is processed, the instance stays alive to be reused for subsequent requests. There is no predefined threshold for instance recycling: the empiric data show a high variance of idle-but-alive periods.
 
 The following chart estimates the probability of an instance to be recycled after the given period of inactivity:
 
@@ -32,7 +32,7 @@ Read more: [When Does Cold Start Happen on Google Cloud Functions?](/coldstarts/
 How Slow Are Cold Starts?
 -------------------------
 
-The following chart shows the typical range of cold starts in Google Cloud Functions, broken down per language. The darker ranges are most common 67% of durations, lighter ranges include 95%.
+The following chart shows the typical range of cold starts in Google Cloud Functions, broken down per language. The darker ranges are the most common 67% of durations, and lighter ranges include 95%.
 
 {{< chart_interval 
     "coldstart_gcp_bylanguage"
@@ -47,18 +47,18 @@ Does Package Size Matter?
 
 The above charts show the statistics for tiny "Hello World"-style functions. Adding dependencies and thus increasing the deployed package size will further increase the cold start durations.
 
-The following chart compares three JavaScript functions with various number of referenced NPM packages:
+The following chart compares three JavaScript functions with the various number of referenced NPM packages:
 
 {{< chart_interval 
     "coldstart_gcp_bydependencies"
     "Comparison of cold start durations per deployment size (zipped)" >}}
 
-Indeed, the functions with many dependendencies can be 5-10 times slower to start.
+Indeed, the functions with many dependencies can be 5-10 times slower to start.
 
 Does Instance Size Matter?
 --------------------------
 
-Google Cloud Functions have a setting to define the memory size that gets allocated to a single instance of a function. Are bigger instances faster to load?
+Google Cloud Functions have a setting to define the memory size that gets allocated to a single instance of a function. Are larger instances faster to load?
 
 {{< chart_interval 
     "coldstart_gcp_bymemory"

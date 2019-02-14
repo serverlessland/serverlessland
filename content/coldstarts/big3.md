@@ -15,9 +15,9 @@ Read more: [Cold Starts in Serverless Functions](/coldstarts/define/)
 When Does Cold Start Happen?
 ----------------------------
 
-The very first cold start happens when the first request comes in after a deployment. 
+The very first cold start happens when the first request comes in after deployment. 
 
-After that request is processed, the instance is kept alive to be reused for subsequent requests. 
+After that request is processed, the instance stays alive to be reused for subsequent requests. 
 
 The strategy for reuse differs very between the cloud vendors:
 
@@ -34,7 +34,7 @@ Learn more about lifetime: [AWS Lambda](/coldstarts/aws/intervals/), [Azure Func
 How Slow Are Cold Starts?
 -------------------------
 
-The following chart shows the comparison of typical cold start durations across all generally available languages of the three clouds. The darker ranges are most common 67% of durations, lighter ranges include 95%.
+The following chart shows the comparison of typical cold start durations across all generally available languages of the three clouds. The darker ranges are the most common 67% of durations, and lighter ranges include 95%.
 
 {{< featured >}}
 
@@ -53,7 +53,7 @@ Does Package Size Matter?
 
 The above charts show the statistics for tiny "Hello World"-style functions. Adding dependencies and thus increasing the deployment package size will further increase the cold start latency.
 
-The following chart compares three JavaScript functions with various number of referenced NPM packages:
+The following chart compares three JavaScript functions with the various number of referenced NPM packages:
 
 {{< featured >}}
 

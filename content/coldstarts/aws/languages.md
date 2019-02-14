@@ -4,7 +4,7 @@ date: 2019-02-07
 tags: ["Cold Starts", "AWS", "JavaScript", "Python", "Go", "C#", "Ruby", "Java", "AWS Lambda"]
 ---
 
-The charts below give the distribution of cold start durations per supported programming language. All charts *except the last one* have the same scale to make them easily comparable.
+The charts below give the distribution of cold start durations per supported programming language. All charts *except the last one* have the same horizontal scale (0.0-1.2 sec) to make them easily comparable.
 
 **JavaScript**:
 

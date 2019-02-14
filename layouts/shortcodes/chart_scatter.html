@@ -3,12 +3,17 @@
 {{ $caption := .Get 1 }}
 
 <script type="text/javascript">
-addChart(data => {
+addChart((data, options) => {
   data.addColumn('number', 'ID');
   data.addColumn('number', 'Value');
   data.addColumn({ 'type': 'string', 'role': 'style' });
   data.addRows({{ $data.points }});
-
+  options.hAxis = {
+    title: 'minutes'
+  };
+  options.vAxis = {
+    title: 'seconds'
+  };
   return new google.visualization.ScatterChart(document.getElementById('chart_div_{{ $id }}'));
 });
 </script>
