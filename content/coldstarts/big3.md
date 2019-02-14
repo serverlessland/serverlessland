@@ -10,7 +10,7 @@ ghissueid: 1
 
 This article compares Function-as-a-Service offerings of Big-3 cloud providers in terms of cold starts. AWS Lambda, Azure Functions (Consumption Plan), and Google Cloud Functions are all dynamically scaled and billed-per-execution compute services. Instances of cloud functions are added and removed dynamically. When a new instance handles its first request, the response time increases, which is called a **cold start**.
 
-Read more: [Cold Starts in Serverless Functions](/coldstarts/define/)
+Read more: [Cold Starts in Serverless Functions](/coldstarts/define/).
 
 When Does Cold Start Happen?
 ----------------------------
@@ -27,7 +27,7 @@ The strategy for reuse differs very between the cloud vendors:
 | Azure Functions           | 20 minutes                               |
 | Google Cloud Functions    | Anywhere between 3 minutes and 5+ hours  |
 
-Only Azure has a policy to recycle an idle intance after a fixed period of time. AWS, and especially GCP, employ some other strategy to determine the threshold, potentially based on the current demand-supply balance on their resource pools.
+Only Azure has the policy to recycle an idle instance after a fixed period. AWS, and especially GCP, employ some other strategies to determine the threshold, potentially based on the current demand-supply balance of their resource pools.
 
 Learn more about lifetime: [AWS Lambda](/coldstarts/aws/intervals/), [Azure Functions](/coldstarts/azure/intervals/), [Google Cloud Functions](/coldstarts/gcp/intervals/).
 
@@ -63,4 +63,4 @@ The following chart compares three JavaScript functions with the various number 
 
 {{< /featured >}}    
 
-The trend is quite consistent: bigger packages cause significant slowdown of the cold start. Once again, AWS outperforms its competitors.
+The trend is quite consistent: larger packages cause a significant slowdown of the cold start. Once again, AWS outperforms its competitors.
