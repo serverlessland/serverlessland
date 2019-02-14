@@ -2,6 +2,7 @@
 title: Introducing "Serverless Land"
 date: 2019-02-14
 thumbnail: /images/tree.jpg
+image: /images/tree.jpg
 blog: true
 teaser: In the past 6 months I published several blog posts under the same theme of comparing the severless services of the top cloud providers in terms of their performance and scalability properties. I received some very positive feedback on those posts (readers are fantastic!).
 ghissueid: 5

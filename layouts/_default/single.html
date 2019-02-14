@@ -30,20 +30,29 @@
                                 <span class="author-meta">
                                     <span class="post-name">{{ .Site.Params.author.name }}
                                 </span><br/>
-                                <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }} - {{ .ReadingTime }} min read </span>
+                                <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }} &nbsp;&middot;&nbsp; {{ .ReadingTime }} min read </span>
                                 </span>
                                 <div class="clearfix"></div>
                             {{else}}
-                                <span class="post-date">Last updated on {{ dateFormat "Jan 2, 2006" .PublishDate }} - {{ .ReadingTime }} min read </span>
+                                <span class="post-date">Last updated on {{ dateFormat "Jan 2, 2006" .PublishDate }} &nbsp;&middot;&nbsp; {{ .ReadingTime }} min read </span>
                                 </span>
                             {{end}}                        
                             </div>
                         </div>			
                     </div>
-
-                    <!-- Post Featured Image -->
+                <!-- Post Featured Image -->
                     {{with .Params.image}}
-                        <img class="featured-image img-fluid" src="{{ . | urlize | relURL }}" alt="thumbnail for this post">
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-lg-11 offset-lg-1 flex-first flex-lg-unordered">
+                    <img class="featured-image img-fluid" src="{{ . | urlize | relURL }}" alt="thumbnail for this post">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 pl-0">      
+                </div>
+                <div class="col-lg-9 flex-first flex-lg-unordered">
                     {{end}}
                     <!-- End Featured Image -->                    
                 

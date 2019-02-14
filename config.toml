@@ -7,8 +7,8 @@ summaryLength = 25
 enableEmoji = true
 
 [params]
-  logo = "/images/logo2.png"
-  favicon = "/images/logo3.png"
+  logo = "/images/logo4ws.png"
+  favicon = "/images/logo4s.png"
   description ="Experiments with serverless functions and managed cloud services. Open code and open data."
 
 [params.author]

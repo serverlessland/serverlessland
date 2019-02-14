@@ -5,6 +5,7 @@ layout: single
 teaser: Selection of languages, instance sizes, dependencies, VPC, and more
 tags: ["Cold Starts", "AWS", "AWS Lambda"]
 thumbnail: /images/lambda2.jpg
+image: /images/lambda2.jpg
 ghissueid: 2
 ---
 
