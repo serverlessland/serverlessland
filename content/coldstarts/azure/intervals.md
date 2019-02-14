@@ -1,6 +1,6 @@
 ---
 title: "When Does Cold Start Happen on Azure Functions?"
-date: 2019-02-07
+date: 2019-02-14
 tags: ["Cold Starts", "Azure", "Azure Functions"]
 ---
 

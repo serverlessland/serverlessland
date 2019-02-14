@@ -1,6 +1,6 @@
 ---
 title: "When Does Cold Start Happen on Google Cloud Functions?"
-date: 2019-02-07
+date: 2019-02-14
 tags: ["Cold Starts", "GCP", "Google Cloud Functions"]
 ---
 

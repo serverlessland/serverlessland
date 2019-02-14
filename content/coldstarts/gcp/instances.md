@@ -1,6 +1,6 @@
 ---
 title: "Google Cloud Functions: Cold Start Duration per Instance Size"
-date: 2019-02-07
+date: 2019-02-14
 tags: ["Cold Starts", "GCP", "JavaScript", "Google Cloud Functions"]
 ---
 
