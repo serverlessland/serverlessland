@@ -6,6 +6,7 @@ layout: single
 teaser: Selection of languages, instance sizes, dependencies, VPC, and more
 tags: ["Cold Starts", "AWS", "AWS Lambda"]
 thumbnail: /images/lambda2.jpg
+ghissueid: 2
 ---
 
 This article describes AWS Lambda&mdash;the dynamically scaled and billed-per-execution compute service. Instances of Lambdas are added and removed dynamically. When a new instance handles its first request, the response time increases, which is called a **cold start**.

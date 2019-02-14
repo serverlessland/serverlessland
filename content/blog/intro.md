@@ -1,9 +1,10 @@
 ---
 title: Introducing "Serverless Land"
 date: 2019-02-13
-thumbnail: /images/blackboard.jpg
+thumbnail: /images/tree.jpg
 blog: true
 teaser: In the past 6 months I published several blog post under the same theme of comparing the severless services of the top cloud providers in terms of their performance and scalability properties. I received some very positive feedback on those posts (you are awesome!).
+ghissueid: 5
 ---
 
 Hi, my name is [Mikhail Shilkov](https://mikhail.io), thanks for reading. 

@@ -5,6 +5,7 @@ layout: single
 thumbnail: /images/azure2.jpg
 teaser: Influence of dependecies, language, runtime selection on Consumption Plan
 tags: ["Cold Starts", "Azure", "Azure Functions"]
+ghissueid: 3
 ---
 
 This article describes Azure Functions running on Consumption Plan&mdash;the dynamically scaled and billed-per-execution compute service. Consumption Plan adds and removes instances dynamically. When a new instance handles its first request, the response time increases, which is called a **cold start**. 

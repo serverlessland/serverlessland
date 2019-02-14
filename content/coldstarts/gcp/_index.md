@@ -5,6 +5,7 @@ layout: single
 tags: ["Cold Starts", "GCP", "Google Cloud Functions"]
 teaser: Running GA and Beta languages on different instance sizes
 thumbnail: /images/gcp.jpg
+ghissueid: 4
 ---
 
 This article describes Google Cloud Functions&mdash;the dynamically scaled and billed-per-execution compute service. Instances of Cloud Functions are added and removed dynamically. When a new instance handles its first request, the response time suffers, which is called a **cold start**.

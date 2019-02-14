@@ -7,9 +7,8 @@
 
             {{ with .Site.Params.logo }}
             <img src="{{ . | urlize | relURL }}" alt="logo">
-            {{ else }}
-            <span style="font-family:Righteous;">{{.Site.Title}}</span>
             {{ end }}
+            <span style="font-family:Righteous;">{{.Site.Title}}</span>
         </a>
         <!-- End Logo -->
 
