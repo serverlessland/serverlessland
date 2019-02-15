@@ -4,8 +4,8 @@ date: 2019-02-14
 layout: single
 teaser: Selection of languages, instance sizes, dependencies, VPC, and more
 tags: ["Cold Starts", "AWS", "AWS Lambda"]
-thumbnail: /images/lambda2.jpg
-image: /images/lambda2.jpg
+thumbnail: /images/coldlambda_thumb.jpg
+image: /images/coldlambda.jpg
 ghissueid: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Measuring Cold Starts"
 date: 2019-02-14
-thumbnail: /images/measure.jpg
+thumbnail: /images/measure_thumb.jpg
 tags: ["Cold Starts"]
 ---
 

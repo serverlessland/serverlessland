@@ -1,7 +1,7 @@
 ---
 title: Introducing "Serverless Land"
 date: 2019-02-14
-thumbnail: /images/tree.jpg
+thumbnail: /images/tree_thumb.jpg
 image: /images/tree.jpg
 blog: true
 teaser: In the past 6 months I published several blog posts under the same theme of comparing the severless services of the top cloud providers in terms of their performance and scalability properties. I received some very positive feedback on those posts (readers are fantastic!).
@@ -52,7 +52,7 @@ I believe I can solve the issues inherent to the format of the blog by doing the
 
 I've completed all the suggestions for the topic of [Cold Starts](/coldstarts/): 
 
-{{< figure src="/images/coldstarts-screen.png" title="Cold Starts landing page screenshot" >}}
+{{< figure src="/images/coldstarts-screen.jpg" title="Cold Starts landing page screenshot" >}}
 
 Two dozens of cloud functions span across three providers. The experiments run for a week and then the results are saved as JSON files. A script aggregates the data and produces charts in several seconds.
 
