@@ -6,6 +6,8 @@ copyright = "Mikhail Shilkov - All rights reserved"
 summaryLength = 25
 enableEmoji = true
 
+googleAnalytics = "UA-134627815-1"
+
 [params]
   logo = "/images/logo_text.png"
   favicon = "/images/logo.png"
