@@ -2,10 +2,10 @@
 title: "Cold Starts in AWS Lambda"
 date: 2019-02-14
 layout: single
-teaser: Selection of languages, instance sizes, dependencies, VPC, and more
+description: Selection of languages, instance sizes, dependencies, VPC, and more
 tags: ["Cold Starts", "AWS", "AWS Lambda"]
 thumbnail: /images/coldlambda_thumb.jpg
-image: /images/coldlambda.jpg
+images: [/images/coldlambda.jpg]
 ghissueid: 2
 ---
 
@@ -28,7 +28,7 @@ The following chart estimates the probability of an instance to be recycled afte
 
 An idle instance almost always stays alive for at least **25 minutes**. Then, the probability of it being disposed slowly starts to grow and reaches 100% somewhere after **1 hour** since the last request.
 
-Read more: [When Does Cold Start Happen on AWS Lambda?](/coldstarts/aws/intervals/).
+Read more: [When Does Cold Start Happen on AWS Lambda?](/coldstarts/aws/intervals/)
 
 How Slow Are Cold Starts?
 -------------------------

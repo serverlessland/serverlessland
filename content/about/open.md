@@ -2,7 +2,7 @@
 title: Open Code, Open Data
 date: 2019-02-14
 thumbnail: /images/github.jpg
-teaser: The code of the cloud functions and the collected data can be found on GitHub.
+description: The code of the cloud functions and the collected data can be found on GitHub.
 ---
 
 [ServerlessLand](https://github.com/serverlessland) organization contains the code of cloud functions, infrastructure configuration, and data files.

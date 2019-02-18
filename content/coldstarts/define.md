@@ -2,7 +2,7 @@
 title: What Is a Cold Start?
 date: 2019-02-14
 thumbnail: /images/dictionary_thumb.jpg
-teaser: Definition, mechanics and the reasons they exist
+description: Definition, mechanics and the reasons they exist
 tags: ["Cold Starts"]
 ---
 
